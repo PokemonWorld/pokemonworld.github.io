@@ -19,7 +19,6 @@ $(function(){
     const tempImg = document.createElement('img');
     tempImg.addEventListener('load', onTempImageLoad);
     var data = "data:image/svg+xml," + encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' width='"+cw+"' height='"+ch+"'><foreignObject width='100%' height='100%'><div xmlns='http://www.w3.org/1999/xhtml'>"+content+"</div></foreignObject></svg>");
-    console.log(data);
     tempImg.src = data;
     body.appendChild(targetImg);
   }
