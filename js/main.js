@@ -10,11 +10,14 @@ $(function(){
     "images/trainers/3.png",
     "images/trainers/4.png",
     "images/trainers/5.png",
+    "images/trainers/6.png",
+    "images/trainers/7.png",
 
   ];
   $route_list = [
     "images/route/29.png",
-    "images/route/beach.png"
+    "images/route/beach.png",
+    "images/route/sand.png"
   ];
   $actual_pkmn = $pkmn_list[0];
   $actual_trainer = $trainer_list[0];
