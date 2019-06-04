@@ -12,15 +12,15 @@ $(function(){
     "images/trainers/5.png",
     "images/trainers/6.png",
     "images/trainers/7.png",
-
+    "images/trainers/8.png",
   ];
   $route_list = [
     "images/route/29.png",
     "images/route/beach.png",
     "images/route/sand.png"
   ];
-  $actual_pkmn = $pkmn_list[0];
-  $actual_trainer = $trainer_list[0];
+  $actual_pkmn = $pkmn_list[18];
+  $actual_trainer = $trainer_list[7];
   $actual_map = $route_list[0];
   //-----------------------------------
   $('.char1 img').each(function(){
