@@ -1,13 +1,14 @@
 $(function(){
   $pkmn_list = [
-    "images/pkmn/mudkip.webp",
-    "images/pkmn/chimecho.webp",
-    "images/pkmn/nidoking.webp",
-    "images/pkmn/bulbasaur.webp",
-    "images/pkmn/linoone.webp",
-    "images/pkmn/poliwhirl.webp",
-    "images/pkmn/rayquaza.webp",
-    "images/pkmn/latios.webp",
+    "images/pkmn/1.png",
+    "images/pkmn/2.png",
+    "images/pkmn/3.png",
+    "images/pkmn/4.png",
+    "images/pkmn/5.png",
+    "images/pkmn/6.png",
+    "images/pkmn/7.png",
+    "images/pkmn/8.png",
+    "images/pkmn/9.png",
   ];
   $trainer_list = [
     "images/trainers/1.png",
