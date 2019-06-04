@@ -1,19 +1,21 @@
 $(function(){
   $pkmn_list = [
-    "https://vignette.wikia.nocookie.net/es.pokemon/images/1/1e/Poliwhirl_mini.png/revision/latest?cb=20100124120634",
-    "https://vignette.wikia.nocookie.net/es.pokemon/images/4/41/Mudkip_mini.png/revision/latest?cb=20100124125206",
-    "https://vignette.wikia.nocookie.net/es.pokemon/images/e/e9/Chimecho_mini.png/revision/latest?cb=20100124130843",
-    "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d2/Linoone_mini.png/revision/latest?cb=20100124125518",
-    "https://vignette.wikia.nocookie.net/es.pokemon/images/8/85/Bulbasaur_mini.png/revision/latest?cb=20100124115635",
-    "https://vignette.wikia.nocookie.net/es.pokemon/images/3/3c/Nidoking_mini.png/revision/latest?cb=20100124115959",
+    "images/pkmn/mudkip.webp",
+    "images/pkmn/chimecho.webp",
+    "images/pkmn/nidoking.webp",
+    "images/pkmn/bulbasaur.webp",
+    "images/pkmn/linoone.webp",
+    "images/pkmn/poliwhirl.webp",
+    "images/pkmn/rayquaza.webp",
+    "images/pkmn/latios.webp",
   ];
   $trainer_list = [
-    "https://archives.bulbagarden.net/media/upload/5/58/Bug_Catcher_HGSS_OD.png",
-    "https://archives.bulbagarden.net/media/upload/3/39/Aaron_OD.png",
-    "https://archives.bulbagarden.net/media/upload/b/b6/Ace_Trainer_f_IV_Snow_OD.png",
-    "https://archives.bulbagarden.net/media/upload/2/2b/Ace_Trainer_m_HGSS_OD.png",
-    "https://archives.bulbagarden.net/media/upload/6/69/Archer_OD.png",
-    "https://archives.bulbagarden.net/media/upload/9/91/Barry_OD.png"
+    "images/trainers/1.png",
+    "images/trainers/2.png",
+    "images/trainers/3.png",
+    "images/trainers/4.png",
+    "images/trainers/5.png",
+
   ];
   $route_list = [
     "images/route/29.png",

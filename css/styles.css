@@ -7,7 +7,18 @@
 body{
   /* padding: 100px 30%; */
   padding-bottom: 0;
-  background-image: url(https://ih0.redbubble.net/image.229918442.2317/flat,1000x1000,075,f.jpg);
+  background-image: url('../images/iris.webp');
+  background-size: cover;
+}
+.fog{
+  z-index: 2;
+  background-color: rgba(0, 0, 0, .2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
 .container{
   width: 40%;
@@ -15,6 +26,11 @@ body{
   background-color: white;
   margin-top: 30px;
   padding: 30px;
+  box-shadow: 1px 1px 7px #000000a8;
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 .box{
   padding: 15px;
