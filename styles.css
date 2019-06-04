@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+body{
+  /* padding: 100px 30%; */
+  padding-bottom: 0;
+  background-image: url(https://ih0.redbubble.net/image.229918442.2317/flat,1000x1000,075,f.jpg);
+}
+.container{
+  width: 40%;
+  margin: auto;
+  background-color: white;
+  margin-top: 30px;
+  padding: 30px;
+}
+.box{
+  padding: 15px;
+  box-shadow: 1px 1px 5px #777;
+  margin-bottom: 20px;
+}
+.tools{
+  display: flex;
+  padding: 0;
+}
+.tools p{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.tools p:hover{
+  background-color: rgba(0, 0, 0, .2);
+}
+.stage{
+
+}
+.confirm{
+
+}
+.card{
+  width: 350px;
+  height: 300px;
+  background-color: grey;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #a1a1a1;
+  margin-bottom: 10px;
+  position: relative;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.char{
+  position: absolute;
+  bottom: 200px;
+}
+.char img{
+  transform: scale(1.6);
+}
+.char1{
+  left: 150px;
+}
+.char2{
+  left: 190px;
+}
+.none{
+  display: none !important;
+}
+.gallery{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px 30%;
+  z-index: 10;
+}
+.gallery img{
+  width: 10%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #35343494;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: white;
+  transition: .2s all;
+  padding: 5px;
+}
+.gallery img:hover{
+  transform: scale(1.05);
+}
+.escenario img{
+  padding: 0;
+  width: 30%;
+  border-radius: 0;
+  border: 3px solid white;
+}
