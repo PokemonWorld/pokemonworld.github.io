@@ -39,7 +39,7 @@ body{
 
 }
 .confirm{
-
+  text-align: center;
 }
 .card{
   width: 350px;
@@ -50,6 +50,7 @@ body{
   box-shadow: 1px 1px 5px #a1a1a1;
   margin-bottom: 10px;
   position: relative;
+  overflow: hidden;
 
   background-size: contain;
   background-position: center;
