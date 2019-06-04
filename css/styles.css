@@ -112,6 +112,12 @@ body{
 .gallery img:hover{
   transform: scale(1.05);
 }
+.gallery .scroll{
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
 .escenario img{
   padding: 0;
   width: 30%;

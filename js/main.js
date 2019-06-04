@@ -1,15 +1,9 @@
 $(function(){
-  $pkmn_list = [
-    "images/pkmn/1.png",
-    "images/pkmn/2.png",
-    "images/pkmn/3.png",
-    "images/pkmn/4.png",
-    "images/pkmn/5.png",
-    "images/pkmn/6.png",
-    "images/pkmn/7.png",
-    "images/pkmn/8.png",
-    "images/pkmn/9.png",
-  ];
+  $pkmn_list = [];
+  for (var i = 1; i < 494; i++) {
+    $pkmn_list.push("images/pkmn/"+i+".png");
+  }
+
   $trainer_list = [
     "images/trainers/1.png",
     "images/trainers/2.png",
@@ -47,7 +41,7 @@ $(function(){
   function loopImg(array, gallery){
     for (var i = 0; i < array.length; i++) {
       $img = "<img src='"+array[i]+"'>";
-      $(gallery).append($img);
+      $(gallery+" .scroll").append($img);
     }
   }
   function changeSprite(gallery, elmToChange){
