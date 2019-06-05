@@ -75,6 +75,7 @@ $(function(){
       $this = $(this);
       $src = $this.attr('src');
       $data = $this.data('frame');
+      
       if(gallery == ".escenario"){
         $('.card').css('background-image', 'url('+$src+')');
       } else{
