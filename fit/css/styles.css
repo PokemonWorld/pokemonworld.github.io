@@ -17,19 +17,34 @@ header nav ul{
   list-style: none;
   text-align: right;
   margin: 0;
+  overflow: hidden;
 }
 header nav ul li{
   display: inline-block;
+  float: left;
+}
+header nav ul .right{
+  float: right;
 }
 header nav ul li a{
   color: #fff;
   text-decoration: none;
   display: block;
-  padding: 20px;
+  padding: 15px 20px;
   transition: .2s all;
 }
 header nav ul li a:hover{
   background-color: var(--primary);
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li .secondary{
+  background-color: var(--primary);
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li .secondary:hover{
+  text-decoration: underline;
 }
 /* sections */
 .section-primary{
@@ -107,21 +122,37 @@ header nav ul li a:hover{
 .offer-block.icon{
   background-image: url(http://cdn.onlinewebfonts.com/svg/img_493643.png);
   background-size: contain;
-  background-size: 111px;
+  background-size: 90px;
   background-repeat: no-repeat;
   background-position: 95%;
 }
 .offer-block h4{
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   text-align: left;
   background-color: var(--primary);
   color: white;
   padding: 5px 10px;
   display: inline-block;
 }
-.offer-block p{
+.offer-block .tag{
+  margin-bottom: 15px;
+  background-color: #50B353;
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.offer-block .text{
   margin-bottom: 30px;
   width: 70%;
+}
+.offer-block p span{
+  text-transform: uppercase;
+  color: var(--primary);
+  font-weight: bold;
 }
 /* buttons */
 .f-btn{
