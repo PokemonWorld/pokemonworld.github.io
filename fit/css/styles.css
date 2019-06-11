@@ -34,6 +34,7 @@ header nav ul li a:hover{
 /* sections */
 .section-primary{
   padding: 20px 0;
+  background-color: #dcdcdc;
 }
 /* slider */
 .slider-container{
@@ -89,17 +90,38 @@ header nav ul li a:hover{
   transform: rotate(-6deg);
 }
 /* blocks */
+.offer-block-container{
+  transform: translateY(-60px);
+}
 .offer-block{
   padding: 20px;
-  border: 1px solid #0000004f;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px gray;
+  box-shadow: 1px 1px 5px #a3a3a3;
+  margin-bottom: 20px;
+  background-color: #fff;
+  transition: .2s all;
+}
+.offer-block:hover{
+  transform: translateY(-10px);
+}
+.offer-block.icon{
+  background-image: url(http://cdn.onlinewebfonts.com/svg/img_493643.png);
+  background-size: contain;
+  background-size: 111px;
+  background-repeat: no-repeat;
+  background-position: 95%;
 }
 .offer-block h4{
   margin-bottom: 30px;
+  text-align: left;
+  background-color: var(--primary);
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
 }
 .offer-block p{
   margin-bottom: 30px;
+  width: 70%;
 }
 /* buttons */
 .f-btn{
@@ -110,6 +132,7 @@ header nav ul li a:hover{
   transition: .2s all;
   border: 2px solid var(--primary);
   text-transform: uppercase;
+  text-align: center;
 }
 .f-btn:hover{
   text-decoration: none;
