@@ -1,5 +1,6 @@
 :root{
   --primary: #db0465;
+  --secondary: #50B353;
 }
 *{
   margin: 0;
@@ -119,6 +120,21 @@ header nav ul li .secondary:hover{
 .offer-block:hover{
   transform: translateY(-10px);
 }
+.offer-block.offer-block-blocked:before{
+  content: "";
+  transition: .2s all;
+}
+.offer-block.offer-block-blocked:hover:before{
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+}
 .offer-block.icon{
   background-image: url(http://cdn.onlinewebfonts.com/svg/img_493643.png);
   background-size: contain;
@@ -136,7 +152,7 @@ header nav ul li .secondary:hover{
 }
 .offer-block .tag{
   margin-bottom: 15px;
-  background-color: #50B353;
+  background-color: var(--secondary);
   display: inline-block;
   padding: 5px 20px;
   color: #fff;
