@@ -52,6 +52,19 @@ header nav ul li .secondary:hover{
   padding: 20px 0;
   background-color: #dcdcdc;
 }
+/* parallax */
+.parallax{
+  text-align: center;
+  padding: 100px 0;
+  background: url('../images/slider/forest.jpeg') 100% fixed repeat;
+  background-size: cover;
+  color: #fff;
+}
+.parallax img{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
 /* slider */
 .slider-container{
   height: 400px;
@@ -60,16 +73,17 @@ header nav ul li .secondary:hover{
 .slider-container .slide{
   position: relative;
   height: 100%;
+  background: url('../images/slider/forest.jpeg') 100% fixed repeat;
   background-size: cover;
   background-position: center;
   overflow: hidden;
 }
-.slider-container .slide:before{
+.fog{
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, .1);
   content: "";
   width: 100%;
 }
