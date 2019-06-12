@@ -182,6 +182,37 @@ header nav ul li .secondary:hover{
   color: var(--primary);
   font-weight: bold;
 }
+/* premium block */
+.premium-block{
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #a3a3a3;
+  margin-bottom: 20px;
+  background-color: #fff;
+  transition: .2s all;
+}
+.premium-block h4{
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+.premium-block ul{
+  list-style: none;
+}
+.premium-block ul li{
+  display: block;
+  background-position: right;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  border-bottom: 1px dashed #bfbfbf;
+  margin: 5px auto;
+  padding: 5px 0;
+}
+.premium-block ul li.yes{
+  background-image: url('https://img.icons8.com/cotton/2x/checkmark.png');
+}
+.premium-block ul li.no{
+  background-image: url('https://img.icons8.com/material/72/x-coordinate.png');
+}
 /* buttons */
 .f-btn{
   display: block;
