@@ -124,7 +124,7 @@ header nav ul li .secondary:hover{
   content: "";
   transition: .2s all;
 }
-.offer-block.offer-block-blocked:hover:before{
+/* .offer-block.offer-block-blocked:hover:before{
   content: "";
   display: block;
   background-color: rgba(0, 0, 0, .7);
@@ -134,6 +134,18 @@ header nav ul li .secondary:hover{
   right: 0;
   bottom: 0;
   border-radius: 10px;
+  z-index: 10;
+} */
+.offer-block.offer-block-blocked:hover h4, .offer-block.offer-block-blocked:hover p{
+  opacity: .2;
+}
+.offer-block.offer-block-blocked:hover{
+  cursor: not-allowed;
+}
+.offer-block.offer-block-blocked:hover .f-btn{
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
 }
 .offer-block.icon{
   background-image: url(http://cdn.onlinewebfonts.com/svg/img_493643.png);
@@ -194,3 +206,9 @@ header nav ul li .secondary:hover{
   background-color: #fff;
   color: var(--primary);
 }
+/* .offer-block .f-btn{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+} */
