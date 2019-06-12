@@ -208,6 +208,7 @@ header nav ul li .secondary:hover{
 .premium-block h4{
   border-bottom: 1px solid #000;
   text-align: center;
+  padding-bottom: 5px;
 }
 .premium-block ul{
   list-style: none;
