@@ -1,4 +1,5 @@
 $(function(){
+  alert($(document).width());
   function setHeightToBlocks(){
     // var start_h = 0;
     // $('.offer-block').each(function(){
