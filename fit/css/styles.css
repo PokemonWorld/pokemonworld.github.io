@@ -63,6 +63,7 @@ header nav ul li .secondary:hover{
   background: url('../images/slider/forest.jpeg') 100% fixed repeat;
   background-size: cover;
   color: #fff;
+  background-color: var(--primary);
 }
 .parallax img{
   width: 100%;
@@ -155,6 +156,9 @@ header nav ul li .secondary:hover{
 } */
 .offer-block.offer-block-blocked:hover h4, .offer-block.offer-block-blocked:hover p{
   opacity: .2;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 .offer-block.offer-block-blocked:hover{
