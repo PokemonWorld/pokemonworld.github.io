@@ -52,6 +52,10 @@ header nav ul li .secondary:hover{
   padding: 20px 0;
   background-color: #dcdcdc;
 }
+.section-secondary{
+  padding: 20px 0;
+  background-color: var(--primary);
+}
 /* parallax */
 .parallax{
   text-align: center;
@@ -127,7 +131,6 @@ header nav ul li .secondary:hover{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 1px 1px 5px #a3a3a3;
-  margin-bottom: 20px;
   background-color: #fff;
   transition: .2s all;
 }
@@ -152,6 +155,7 @@ header nav ul li .secondary:hover{
 } */
 .offer-block.offer-block-blocked:hover h4, .offer-block.offer-block-blocked:hover p{
   opacity: .2;
+  user-select: none;
 }
 .offer-block.offer-block-blocked:hover{
   cursor: not-allowed;
@@ -223,7 +227,7 @@ header nav ul li .secondary:hover{
   padding: 5px 0;
 }
 .premium-block ul li.yes{
-  background-image: url('https://img.icons8.com/cotton/2x/checkmark.png');
+  background-image: url('https://www.basic-fit.com/images/checkmark-green.svg');
 }
 .premium-block ul li.no{
   background-image: url('https://img.icons8.com/material/72/x-coordinate.png');
