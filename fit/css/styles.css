@@ -64,15 +64,33 @@ header nav ul li .secondary:hover{
 .parallax{
   text-align: center;
   padding: 100px 0;
-  background: url('../images/slider/forest.jpeg') 100% fixed repeat;
   background-size: cover;
   color: #fff;
   background-color: var(--primary);
+}
+.parallax.forest{
+  background: url('../images/slider/forest.jpeg') 100% fixed repeat;
+}
+.parallax.food{
+  /* background: url('../images/slider/food.jpeg') 100% fixed repeat; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.31)), url("../images/slider/food.jpeg");
+  background-size: cover;
+  background-position: center top;
 }
 .parallax img{
   width: 100%;
   display: block;
   margin: auto;
+  margin-bottom: 10px;
+}
+.parallax h3{
+  /* background-color: #fff;
+  color: #000; */
+  background-color: var(--primary);
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 /* slider */
 .slider-container{
@@ -253,12 +271,13 @@ header nav ul li .secondary:hover{
 .f-btn{
   display: block;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: var(--primary);
   transition: .2s all;
   border: 2px solid var(--primary);
   text-transform: uppercase;
   text-align: center;
+  background-color: #fff;
 }
 .f-btn:hover{
   text-decoration: none;
