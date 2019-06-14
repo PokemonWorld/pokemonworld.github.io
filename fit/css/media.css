@@ -16,4 +16,7 @@
   footer ul.noborder{
     border-bottom: none;
   }
+  section.section-bg{
+    background-size: 100px;
+  }
 }
