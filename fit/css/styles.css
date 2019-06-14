@@ -215,8 +215,8 @@ header nav ul li .secondary:hover{
 }
 .premium-block h4{
   border-bottom: 1px solid #000;
-  text-align: center;
-  padding-bottom: 5px;
+  /* text-align: center; */
+  padding-bottom: 10px;
 }
 .premium-block ul{
   list-style: none;
@@ -235,6 +235,15 @@ header nav ul li .secondary:hover{
 }
 .premium-block ul li.no{
   background-image: url('https://img.icons8.com/material/72/x-coordinate.png');
+}
+.price{
+  float: right;
+  font-weight: bold;
+  background-color: #ffd90a;
+  color: #fff;
+  text-shadow: 1px 1px 1px #535353;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
 /* buttons */
 .f-btn{
@@ -260,9 +269,20 @@ header nav ul li .secondary:hover{
   background-color: #fff;
   color: var(--primary);
 }
-/* .offer-block .f-btn{
-  position: absolute;
-  bottom: 40px;
-  left: 40px;
-  right: 40px;
-} */
+/* swiper own styles */
+.opinion-block{
+  padding: 50px;
+  width: 90%;
+  margin: auto;
+  /* text-align: center; */
+}
+.opinion-block h4{
+  text-align: center;
+}
+.opinion-block p{
+  font-style: italic;
+}
+.opinion-block .date{
+  font-style: italic;
+  text-align: right;
+}

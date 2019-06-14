@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/swiper.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/main.js" charset="utf-8"></script>
@@ -96,7 +97,7 @@
             <div class="row">
               <div class="col-12 offset-lg-2 col-lg-4">
                 <div class="premium-block">
-                  <h4>Servicio Plus</h4>
+                  <h4>Servicio Plus <span class="price">4,99 &euro;</span></h4>
                   <ul>
                     <li class="yes">Atención al cliente</li>
                     <li class="yes">Acceso a plataforma privada</li>
@@ -104,12 +105,12 @@
                     <li class="no">Videollamada con el entrenador</li>
                     <li class="no">Seguimiento a lo largo del tiempo</li>
                   </ul>
-                  <span class="price">4,99 &euro;</span>
+                  <a class="f-btn f-button-primary" href="">¡Lo quiero!</a>
                 </div>
               </div>
               <div class="col-12 col-lg-4">
                 <div class="premium-block">
-                  <h4>Servicio Premium</h4>
+                  <h4>Servicio Premium <span class="price">19,99 &euro;</span></h4>
                   <ul>
                     <li class="yes">Atención al cliente</li>
                     <li class="yes">Acceso a plataforma privada</li>
@@ -117,9 +118,49 @@
                     <li class="yes">Videollamada con el entrenador</li>
                     <li class="yes">Seguimiento a lo largo del tiempo</li>
                   </ul>
-                  <span class="price">19,99 &euro;/mes</span>
+                  <a class="f-btn f-button-primary" href="">¡Lo quiero!</a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-primary">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-8 offset-lg-2">
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="opinion-block">
+                      <h4>Pepito de los palotes</h4>
+                      <p>"Desde que uso FreeFit he pasado de tener una vida sedentaria a moverme mucho mas. El miedo que tenia a hacer el ridiculo se ha evaporado gracias al entrenador online!"</p>
+                      <p class="date">Mayo, 2019</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="opinion-block">
+                      <h4>Pepito de los palotes</h4>
+                      <p>"Desde que uso FreeFit he pasado de tener una vida sedentaria a moverme mucho mas. El miedo que tenia a hacer el ridiculo se ha evaporado gracias al entrenador online!"</p>
+                      <p class="date">Mayo, 2019</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="opinion-block">
+                      <h4>Pepito de los palotes</h4>
+                      <p>"Desde que uso FreeFit he pasado de tener una vida sedentaria a moverme mucho mas. El miedo que tenia a hacer el ridiculo se ha evaporado gracias al entrenador online!"</p>
+                      <p class="date">Mayo, 2019</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -128,5 +169,8 @@
     <footer>
 
     </footer>
+
+    <script src="js/vendor/swiper.js" charset="utf-8"></script>
+    <script src="js/vendor/load_swiper.js" charset="utf-8"></script>
   </body>
 </html>
