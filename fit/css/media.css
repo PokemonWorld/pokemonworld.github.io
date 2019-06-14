@@ -8,4 +8,11 @@
   h4 {
       font-size: 1.5rem !important;
   }
+  footer ul{
+    border-right: 0px solid;
+    border-bottom: 1px solid #fff;
+  }
+  footer ul.noborder{
+    border-bottom: none;
+  }
 }

@@ -47,6 +47,41 @@ header nav ul li .secondary{
 header nav ul li .secondary:hover{
   text-decoration: underline;
 }
+/* footer */
+footer{
+  background-color: rgb(64,64,64);
+  color: #fff;
+  padding: 50px 20px;
+}
+footer ul{
+  list-style: none;
+  border-right: 1px solid #fff;
+}
+footer ul.noborder{
+  border-right: none;
+}
+footer ul li{
+  text-align: center;
+}
+footer ul li a{
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+}
+footer ul li a:hover{
+  color: inherit;
+  text-decoration: underline;
+}
+footer.footer-dark{
+  background-color: rgb(40, 40, 40);
+}
+footer .footer-copy{
+  text-align: center;
+  padding: 0px 0;
+}
+footer .footer-copy p{
+  margin-bottom: 0;
+}
 /* sections */
 .section-primary{
   padding: 20px 0;
