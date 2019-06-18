@@ -363,3 +363,17 @@ section.section-bg{
   font-style: italic;
   text-align: right;
 }
+/* video block */
+.video-block-container{
+  overflow: hidden;
+  height: 400px;
+  position: relative;
+}
+.video-block-container video{
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
