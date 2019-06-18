@@ -1,6 +1,8 @@
 :root{
   --primary: #db0465;
   --secondary: #50B353;
+  /* --primary: #50B353;
+  --secondary: #db0465; */
 }
 *{
   margin: 0;
@@ -303,7 +305,7 @@ section.section-bg{
 .price{
   float: right;
   font-weight: bold;
-  background-color: #ffd90a;
+  background-color: var(--primary);
   color: #fff;
   text-shadow: 1px 1px 1px #535353;
   padding: 5px 10px;

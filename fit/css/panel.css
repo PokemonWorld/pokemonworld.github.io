@@ -1,0 +1,24 @@
+.panel-side-menu{
+  background-color: #0b4b0b;
+  color: #fff;
+}
+.panel-side-menu ul{
+  list-style: none;
+}
+.panel-side-menu ul li{
+
+}
+.panel-side-menu ul li a{
+  display: block;
+  padding: 15px 30px;
+  color: #fff;
+  transition: .2s all;
+}
+.panel-side-menu ul li a:hover{
+  padding-left: 35px;
+  text-decoration: none;
+}
+
+.panel-main-content{
+  background-color: grey;
+}
