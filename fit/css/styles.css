@@ -100,6 +100,7 @@ footer .footer-copy p{
 }
 section.section-bg{
   background-image: url(http://cdn.onlinewebfonts.com/svg/img_493643.png);
+  /* https://www.shareicon.net/download/2015/10/28/663404_tree.svg */
   background-size: 55px;
   background-blend-mode: soft-light;
   box-shadow: -30px 0 30px #000000a3;
@@ -376,4 +377,40 @@ section.section-bg{
   bottom: 0;
   left: 0;
   right: 0;
+}
+.video-block-container .prevent-touch{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.28);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  margin: auto;
+  z-index: 2;
+}
+/* full-block */
+.full-block-container{
+  display: flex;
+}
+.full-block-container .full-block{
+  width: 100%;
+  padding: 150px 80px;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 300px;
+}
+.full-block-container .full-block a{
+  transform: translateY(250px);
+  opacity: 0;
+  transition: .5s cubic-bezier(1,.75,0,1)
+}
+
+.full-block-container .full-block:hover a{
+  transform: translateY(0);
+  opacity: 1;
 }
