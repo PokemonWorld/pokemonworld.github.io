@@ -25,14 +25,15 @@ body{
   padding: 30px 10px;
 }
 .pokemon-list-home .pokemon-list-home-data h3{
-
+  margin: 0;
 }
 .pokemon-list-home .pokemon-list-home-data .types{
   margin-bottom: 20px;
 }
 .pokemon-list-home .pokemon-list-home-data .types img{
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
+  width: 50px;
 }
 .pokemon-list-home .pokemon-list-home-data .description{
   margin: 0;
