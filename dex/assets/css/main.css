@@ -21,6 +21,20 @@ body{
 .pokemon-list-home.nooverflow{
   overflow: visible !important;
 }
+.pokemon-list-home.dark{
+  filter: grayscale(1);
+}
+.pokemon-list-home.dark:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(64,64,64,.1);
+  transition: .2s all;
+}
 .pokemon-list-home .pokemon-list-home-data{
   padding: 30px 10px;
 }
