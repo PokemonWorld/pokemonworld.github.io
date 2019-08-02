@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rajdhani', sans-serif;
+  outline: 0;
+}
+body{
+  font-size: 16px;
+  padding-top: 30px;
+  background-color: rgba(62, 62, 62, .2);
+}
+
+.pokemon-list-home{
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.pokemon-list-home.nooverflow{
+  overflow: visible !important;
+}
+.pokemon-list-home .pokemon-list-home-data{
+  padding: 30px 10px;
+}
+.pokemon-list-home .pokemon-list-home-data h3{
+
+}
+.pokemon-list-home .pokemon-list-home-data .types{
+  margin-bottom: 20px;
+}
+.pokemon-list-home .pokemon-list-home-data .types img{
+  display: inline-block;
+  margin-right: 10px;
+}
+.pokemon-list-home .pokemon-list-home-data .description{
+  margin: 0;
+}
+.pokemon-list-home .pokemon-list-home-image{
+  /* position: relative; */
+  height: 100%;
+  overflow: hidden;
+}
+.pokemon-list-home .pokemon-list-home-image img{
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  left: 0;
+  /* top: 0; */
+  width: 100%;
+  opacity: .1;
+  /* transform: scale(1.3); */
+  transition: .4s ease-in-out;
+}
+.pokemon-list-home-image.hovered{
+  /* overflow: visible; */
+}
+.pokemon-list-home-image.hovered img{
+  opacity: .3;
+  /* top: -60px; */
+  bottom: -40px;
+  /* transform: scale(1); */
+}
